@@ -5,7 +5,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Ondelio: recupera archivos borrados en Windows 10 y 11</title>
 <meta name="description" content="Recupera archivos borrados de discos, pendrives y tarjetas SD, repara fotos, documentos y vídeos dañados, y copia discos que fallan. Para Windows 10 y 11, sin riesgo y sin subir nada a internet.">
-<meta name="theme-color" content="#070b16">
+<meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0b0f17" media="(prefers-color-scheme: dark)">
 <link rel="canonical" href="https://avanzagrabie.github.io/Ondelio/es/">
 <link rel="alternate" hreflang="es" href="https://avanzagrabie.github.io/Ondelio/es/">
 <link rel="alternate" hreflang="en" href="https://avanzagrabie.github.io/Ondelio/en/">
@@ -27,27 +28,31 @@
 <a class="saltar" href="#contenido">Saltar al contenido</a>
 <header class="sitio">
   <div class="contenedor">
-    <a class="marca" href="index.html"><svg viewBox="0 0 32 32" aria-hidden="true"><defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#2dd4bf"/><stop offset="1" stop-color="#38bdf8"/></linearGradient></defs><circle cx="16" cy="16" r="12.5" fill="none" stroke="url(#g)" stroke-width="3"/><path d="M16 6.5a9.5 9.5 0 0 1 9.5 9.5" fill="none" stroke="#070b16" stroke-width="3.2"/><circle cx="16" cy="16" r="4.2" fill="url(#g)"/></svg>Ondelio</a>
+    <a class="marca" href="index.html"><svg viewBox="0 0 32 32" aria-hidden="true"><defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#2dd4bf"/><stop offset="1" stop-color="#38bdf8"/></linearGradient></defs><circle cx="16" cy="16" r="12.5" fill="none" stroke="url(#g)" stroke-width="3"/><circle cx="16" cy="16" r="4.2" fill="url(#g)"/></svg>Ondelio</a>
     <nav class="menu" aria-label="Principal">
-      <a class="ocultable" href="#funciones">Funciones</a>
-      <a class="ocultable" href="#como">Cómo funciona</a>
-      <a class="ocultable" href="#precios">Precios</a>
-      <a class="ocultable" href="#preguntas">Preguntas</a>
-      <a class="idioma" href="../en/" hreflang="en" lang="en" data-idioma="en" title="English">EN</a>
+      <a href="#funciones">Funciones</a>
+      <a href="#como">Cómo funciona</a>
+      <a href="#precios">Precios</a>
+      <a href="#preguntas">Preguntas</a>
     </nav>
+    <div class="acciones-cab">
+      <a class="idioma" href="../en/" hreflang="en" lang="en" data-idioma="en" title="English">EN</a>
+      <a class="boton-cab" href="#descargar">Próximamente</a>
+      <details class="menu-movil"><summary aria-label="Menú"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg></summary>
+        <div class="panel"><a href="#funciones">Funciones</a><a href="#como">Cómo funciona</a><a href="#precios">Precios</a><a href="#preguntas">Preguntas</a><a href="ayuda.html">Ayuda</a></div></details>
+    </div>
   </div>
 </header>
 <main id="contenido">
 
 <section class="portada">
-  <div class="brillo" aria-hidden="true"><div class="rejilla-fondo"></div></div>
   <div class="contenedor">
-    <span class="insignia"><b>Nuevo</b> Próximamente en Microsoft Store</span>
+    <span class="sobre">Próximamente en Microsoft Store</span>
     <h1>Recupera lo que creías <span class="degradado">perdido</span>.</h1>
-    <p class="lema">Ondelio encuentra tus archivos borrados en discos, pendrives y tarjetas de memoria, te dice con honestidad cuáles se pueden recuperar enteros y nunca escribe en el disco que estás rescatando.</p>
+    <p class="lema">Ondelio encuentra tus archivos borrados en discos, pendrives y tarjetas de memoria. Te dice con honestidad qué se puede recuperar. Y nunca escribe en el disco que estás rescatando.</p>
     <div class="botones">
       <a class="boton tienda" href="#descargar"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 5.5 10.5 4.5v7H3zM12.5 4.2 21 3v8.5h-8.5zM3 12.5h7.5v7L3 18.5zM12.5 12.5H21V21l-8.5-1.2z" fill="currentColor" stroke="none"/></svg><span><small>Próximamente en</small><strong>Microsoft Store</strong></span></a>
-      <a class="boton fantasma" href="#como">Ver cómo funciona <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+      <a class="boton enlace" href="#como">Descubre cómo funciona <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
     </div>
     <ul class="garantias">
       <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>Gratis para analizar</li>
@@ -55,14 +60,14 @@
       <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>100 % en tu equipo</li>
       <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>Windows 10 y 11</li>
     </ul>
-    <div class="ventana" role="img" aria-label="Ondelio en Windows: pantalla de inicio">
-      <div class="barra"><span></span><span></span><span></span><em>Ondelio</em></div>
-      <img src="../img/inicio.png" width="1500" height="975" alt="Pantalla de inicio de Ondelio: elige qué te ha pasado (he borrado archivos, he formateado, el disco falla, mi pendrive o tarjeta, tengo un archivo dañado)">
+    <div class="portatil entra">
+      <div class="pantalla"><img src="../img/resultados.png" width="1500" height="975" alt="Ondelio mostrando las fotos que se pueden recuperar de un disco, con vista previa y su estado"></div>
+      <div class="base"></div>
     </div>
   </div>
 </section>
 
-<section class="compacta confianza">
+<section class="compacta">
   <div class="contenedor">
     <div class="cifras revela">
       <div><strong>0 bytes</strong><span>escritos en el disco que analizas</span></div>
@@ -73,25 +78,69 @@
   </div>
 </section>
 
-<section id="como">
+<section id="como" class="alt">
   <div class="contenedor">
-    <div class="titulo-seccion revela">
-      <span class="etiqueta">Cómo funciona</span>
+    <div class="cabeza revela">
+      <span class="sobre">Cómo funciona</span>
       <h2>Tres pasos. Sin tecnicismos.</h2>
       <p>Dile a Ondelio qué te ha pasado y él decide cómo buscar. Tú solo eliges qué quieres recuperar.</p>
     </div>
     <div class="pasos">
-      <div class="paso revela"><div class="icono"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg></div><h3>Cuéntale qué pasó</h3><p>Borré archivos, formateé, el disco falla, mi pendrive no se abre, tengo un archivo dañado… Primero mira gratis en la papelera, las versiones anteriores y la nube.</p></div>
-      <div class="paso revela"><div class="icono"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 12s3.6-7 10-7 10 7 10 7-3.6 7-10 7S2 12 2 12z"/><circle cx="12" cy="12" r="3"/></svg></div><h3>Mira antes de pagar</h3><p>Ves todo lo que se puede recuperar, con vista previa y un veredicto por archivo: íntegro, dudoso o dañado. Sin sorpresas.</p></div>
-      <div class="paso revela"><div class="icono"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3 4 6v6c0 5 3.4 8.3 8 9 4.6-.7 8-4 8-9V6l-8-3z"/><path d="m9 12 2 2 4-4"/></svg></div><h3>Recupera sin riesgos</h3><p>Lo recuperado se guarda en otra unidad, nunca en la que analizas. Si el disco falla, primero se copia y se trabaja sobre la copia.</p></div>
+      <div class="paso revela"><span class="num">1</span><h3>Cuéntale qué pasó</h3><p>Borré archivos, formateé, el disco falla, mi pendrive no se abre… Antes de nada, mira gratis en la papelera, las versiones anteriores y la nube.</p></div>
+      <div class="paso revela"><span class="num">2</span><h3>Mira antes de pagar</h3><p>Ves todo lo que se puede recuperar, con vista previa y un veredicto por archivo: íntegro, dudoso o dañado. Sin sorpresas.</p></div>
+      <div class="paso revela"><span class="num">3</span><h3>Recupera sin riesgos</h3><p>Lo recuperado se guarda en otra unidad, nunca en la que analizas. Si el disco falla, primero se copia y se trabaja sobre la copia.</p></div>
     </div>
   </div>
 </section>
 
-<section>
+<section id="funciones">
   <div class="contenedor">
-    <div class="titulo-seccion revela">
-      <span class="etiqueta">Para cada situación</span>
+    <div class="cabeza revela">
+      <span class="sobre">Funciones</span>
+      <h2>Una sola aplicación.<br>Todo lo que necesitas.</h2>
+      <p>Recuperar, reparar, copiar y borrar. Con el mismo cuidado por tus datos en cada paso.</p>
+    </div>
+    <div class="mosaico">
+      <div class="losa g4 alta revela">
+        <div class="icono"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg></div>
+        <h3>Recupera archivos borrados</h3>
+        <p>Papelera vaciada, unidad formateada o partición perdida. NTFS, FAT y exFAT, con vista previa y rescate por contenido de más de 20 formatos.</p>
+        <div class="captura"><img src="../img/resultados.png" width="1500" height="975" loading="lazy" alt="Lista de archivos recuperables con vista previa"></div>
+      </div>
+      <div class="losa g2 tinta revela">
+        <div class="icono"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 6h18M8 6V4h8v2M6 6l1 14h10l1-14"/><path d="M10 11v5M14 11v5"/></svg></div>
+        <h3>Mira aquí primero</h3>
+        <p>En segundos revisa la papelera, las versiones anteriores de Windows, el Historial de archivos y tu nube. Si está ahí, restaurarlo es gratis.</p>
+      </div>
+      <div class="losa g2 revela">
+        <div class="icono"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="8" y="8" width="13" height="13" rx="2"/><path d="M16 8V5a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h3"/></svg></div>
+        <h3>Copia un disco que falla</h3>
+        <p>Una copia exacta que salta lo dañado, se puede pausar y se comprueba con su huella SHA-256.</p>
+      </div>
+      <div class="losa g2 revela">
+        <div class="icono"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="7" y="9" width="10" height="13" rx="2"/><path d="M9 9V3h6v6M10.5 5.5h0M13.5 5.5h0"/></svg></div>
+        <h3>Pendrives y tarjetas</h3>
+        <p>Tarjetas SD y microSD, pendrives que piden formatear y fotos de cámara. Lo que más se pierde, con más opciones que nunca.</p>
+      </div>
+      <div class="losa g4 alta revela">
+        <div class="icono"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14.7 6.3a4 4 0 0 0-5.4 5.4L3 18l3 3 6.3-6.3a4 4 0 0 0 5.4-5.4l-2.6 2.6-2.4-.6-.6-2.4z"/></svg></div>
+        <h3>Repara fotos, documentos y vídeos</h3>
+        <p>JPEG, PNG, Word, Excel, PowerPoint, ZIP y vídeos MP4 y MOV, incluidos los del móvil que se cortaron al grabar. El original nunca se toca.</p>
+        <div class="captura"><img src="../img/reparar-video.png" width="1500" height="975" loading="lazy" alt="Diagnóstico de un vídeo dañado"></div>
+      </div>
+      <div class="losa g2 revela">
+        <div class="icono"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m7 21-4-4L14 6l4 4L7 21zM21 21H9"/><path d="m11 9 4 4"/></svg></div>
+        <h3>Borra para siempre</h3>
+        <p>Sobrescribe archivos o el espacio libre, lo comprueba y te entrega un informe honesto, también cuando no se puede verificar.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="alt">
+  <div class="contenedor">
+    <div class="cabeza revela">
+      <span class="sobre">Para cada situación</span>
       <h2>Lo que te ha pasado, resuelto.</h2>
     </div>
     <div class="situaciones">
@@ -105,73 +154,45 @@
   </div>
 </section>
 
-<section id="funciones">
+<section>
   <div class="contenedor">
-    <div class="titulo-seccion revela">
-      <span class="etiqueta">Funciones</span>
-      <h2>Una sola aplicación. Todo lo que necesitas.</h2>
-      <p>Recuperar, reparar, copiar y borrar, con el mismo cuidado por tus datos.</p>
-    </div>
-
     <div class="funcion revela">
       <div class="texto">
         <span class="estado ya">Disponible en el lanzamiento</span>
-        <h3>Antes de escanear, mira aquí</h3>
-        <p>Muchos archivos «perdidos» siguen existiendo. En segundos, Ondelio revisa los sitios donde Windows guarda copias. Si lo encuentras ahí, restaurarlo es gratis.</p>
+        <h3>Antes de escanear, mira aquí.</h3>
+        <p>Muchos archivos «perdidos» siguen existiendo. Ondelio revisa en segundos los sitios donde Windows guarda copias, antes de un análisis largo.</p>
         <ul class="lista-check"><li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>Papelera y versiones anteriores de Windows</li><li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>Historial de archivos y Windows.old</li><li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>OneDrive, Google Drive y Dropbox</li></ul>
       </div>
-      <div class="marco"><div class="barra"><span></span><span></span><span></span></div><img src="../img/mira-aqui.png" width="1500" height="975" loading="lazy" alt="Resultados de «Mira aquí»: archivos encontrados en la papelera y en versiones anteriores"></div>
+      <div class="escena"><img src="../img/mira-aqui.png" width="1500" height="975" loading="lazy" alt="Resultados de «Mira aquí»"></div>
     </div>
-
     <div class="funcion inversa revela">
       <div class="texto">
         <span class="estado ya">Disponible en el lanzamiento</span>
-        <h3>Recupera archivos borrados</h3>
-        <p>Papelera vaciada, unidad formateada o partición perdida. Con vista previa antes de recuperar y un veredicto honesto para cada archivo.</p>
-        <ul class="lista-check"><li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>NTFS, FAT y exFAT</li><li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>Rescate por contenido de más de 20 formatos</li><li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>Fotos, documentos, vídeos, música y comprimidos</li></ul>
-      </div>
-      <div class="marco"><div class="barra"><span></span><span></span><span></span></div><img src="../img/resultados.png" width="1500" height="975" loading="lazy" alt="Lista de archivos encontrados con su veredicto y vista previa de una foto"></div>
-    </div>
-
-    <div class="funcion revela">
-      <div class="texto">
-        <span class="estado ya">Disponible en el lanzamiento</span>
-        <h3>Copia un disco que está fallando</h3>
-        <p>Cuando un disco empieza a fallar, cada lectura cuenta. Ondelio hace primero una copia exacta y después recuperas desde la copia, sin forzar el disco.</p>
+        <h3>Cuando el disco falla, primero una copia.</h3>
+        <p>Cada lectura de un disco que falla cuenta. Ondelio hace una copia exacta y recuperas desde ella, sin forzar el disco.</p>
         <ul class="lista-check"><li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>Salta las zonas dañadas y vuelve a ellas después</li><li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>Pausa y reanuda donde lo dejaste</li><li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>Copia comprobada con su huella SHA-256</li></ul>
       </div>
-      <div class="marco"><div class="barra"><span></span><span></span><span></span></div><img src="../img/copia-verificada.png" width="1500" height="975" loading="lazy" alt="Copia de disco terminada y verificada"></div>
+      <div class="escena azul"><img src="../img/copia-verificada.png" width="1500" height="975" loading="lazy" alt="Copia de disco terminada y verificada"></div>
     </div>
-
-    <div class="funcion inversa revela">
-      <div class="texto">
-        <span class="estado ya">Disponible en el lanzamiento</span>
-        <h3>Repara archivos dañados</h3>
-        <p>El diagnóstico es gratis y te dice qué se conservaría y qué no. El original nunca se toca: siempre se guarda una copia reparada.</p>
-        <ul class="lista-check"><li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>Fotos JPEG y PNG</li><li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>Word, Excel, PowerPoint y ZIP</li><li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>Vídeos MP4 y MOV, incluidos los del móvil cortados al grabar</li></ul>
-      </div>
-      <div class="marco"><div class="barra"><span></span><span></span><span></span></div><img src="../img/reparar-video.png" width="1500" height="975" loading="lazy" alt="Diagnóstico de un vídeo dañado: qué se conservaría y qué no se puede garantizar"></div>
-    </div>
-
     <div class="funcion revela">
       <div class="texto">
         <span class="estado ya">Disponible en el lanzamiento</span>
-        <h3>Borra para siempre, de verdad</h3>
-        <p>Sobrescribe archivos, carpetas o el espacio libre y lo comprueba volviendo a leerlo. Con un informe de borrado que te dice la verdad, también cuando un borrado no se puede verificar.</p>
-        <ul class="lista-check"><li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>Archivos, carpetas y espacio libre</li><li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>Verificación por relectura</li><li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>Aviso claro en SSD y pendrives</li></ul>
+        <h3>Borrar de verdad. Y decirte la verdad.</h3>
+        <p>Sobrescribe y comprueba volviendo a leer. En SSD y pendrives, donde nadie puede garantizarlo, el informe te lo dice claramente.</p>
+        <ul class="lista-check"><li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>Archivos, carpetas y espacio libre</li><li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>Verificación por relectura</li><li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>Informe de borrado</li></ul>
       </div>
-      <div class="marco"><div class="barra"><span></span><span></span><span></span></div><img src="../img/borrar.png" width="1500" height="975" loading="lazy" alt="Informe de borrado seguro"></div>
+      <div class="escena"><img src="../img/borrar.png" width="1500" height="975" loading="lazy" alt="Informe de borrado seguro"></div>
     </div>
   </div>
 </section>
 
-<section id="sense">
+<section id="sense" class="compacta">
   <div class="contenedor">
     <div class="sense revela">
       <div>
-        <span class="etiqueta">Inteligencia artificial local</span>
-        <h2>Ondelio Sense</h2>
-        <p>Un modelo de inteligencia artificial que vive dentro del programa y reconoce de qué tipo es cada fragmento del disco: texto, foto, datos comprimidos o programa. Así encuentra y ordena mejor lo que buscas, incluso cuando ya no queda rastro del sistema de archivos.</p>
+        <span class="sobre">Inteligencia artificial local</span>
+        <h2>Ondelio Sense.</h2>
+        <p>Un modelo de inteligencia artificial que vive dentro del programa y reconoce de qué tipo es cada fragmento del disco. Así encuentra y ordena mejor lo que buscas, incluso cuando ya no queda rastro del sistema de archivos.</p>
         <div class="chips"><span class="chip">Funciona sin conexión</span><span class="chip">No aprende de tus archivos</span><span class="chip">Entrenado con datos públicos con licencia</span></div>
       </div>
       <div aria-hidden="true">
@@ -182,7 +203,7 @@
           <i class="d"></i><i class="j"></i><i class="j"></i><i class="j"></i><i class="b"></i><i class="b"></i><i class="d"></i><i class="d"></i>
           <i class="t"></i><i class="t"></i><i></i><i class="j"></i><i class="j"></i><i class="j"></i><i class="j"></i><i class="b"></i>
         </div>
-        <div class="leyenda"><span style="--c:rgba(45,212,191,.8)">Foto</span><span style="--c:rgba(56,189,248,.7)">Texto</span><span style="--c:rgba(167,139,250,.7)">Comprimido</span><span style="--c:rgba(251,191,36,.6)">Programa</span></div>
+        <div class="leyenda"><span style="--c:rgba(45,212,191,.9)">Foto</span><span style="--c:rgba(96,165,250,.85)">Texto</span><span style="--c:rgba(167,139,250,.85)">Comprimido</span><span style="--c:rgba(251,191,36,.75)">Programa</span></div>
       </div>
     </div>
   </div>
@@ -190,9 +211,9 @@
 
 <section>
   <div class="contenedor">
-    <div class="titulo-seccion revela">
-      <span class="etiqueta">Próximamente</span>
-      <h2>Y lo que viene.</h2>
+    <div class="cabeza revela">
+      <span class="sobre">Próximamente</span>
+      <h2>Y esto es solo el principio.</h2>
     </div>
     <div class="rejilla">
       <div class="tarjeta revela"><div class="icono"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="2.5"/><circle cx="12" cy="11" r="3.5"/><path d="M7 17h.01M17 17h-3"/></svg></div><h3>Salud del disco</h3><p>Te avisa si el disco está fallando antes de analizarlo y te propone copiarlo primero.</p><span class="estado pronto">Próximamente</span></div>
@@ -203,17 +224,17 @@
   </div>
 </section>
 
-<section id="precios">
+<section id="precios" class="alt">
   <div class="contenedor">
-    <div class="titulo-seccion revela">
-      <span class="etiqueta">Precios</span>
-      <h2>Gratis para comprobar. De pago para el resultado.</h2>
+    <div class="cabeza revela">
+      <span class="sobre">Precios</span>
+      <h2>Gratis para comprobar.<br>De pago para el resultado.</h2>
       <p>Nunca cobramos por lo que evita que pierdas datos. Ves qué se puede recuperar antes de pagar nada.</p>
     </div>
     <div class="planes">
       <div class="plan revela">
-        <span class="nombre">Gratis</span>
-        <div class="precio">0 €</div>
+        <span class="nombre">Ondelio</span>
+        <div class="precio">Gratis</div>
         <p>Para comprobar qué se puede salvar y resolver lo más habitual.</p>
         <ul class="lista-check">
           <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>Analizar y ver la vista previa</li>
@@ -223,12 +244,12 @@
           <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>Diagnosticar archivos dañados</li>
           <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>Borrado seguro de archivos y espacio libre</li>
         </ul>
-        <a class="boton fantasma" href="#descargar">Próximamente</a>
+        <a class="boton secundario" href="#descargar">Próximamente</a>
       </div>
       <div class="plan destacado revela">
-        <span class="cinta">COMPLEMENTOS</span>
-        <span class="nombre">Pro</span>
-        <div class="precio">A tu medida <small>en Microsoft Store</small></div>
+        <span class="cinta">Complementos</span>
+        <span class="nombre">Ondelio Pro</span>
+        <div class="precio">Sin límites<small>Compra segura en Microsoft Store</small></div>
         <p>Todo lo gratuito, sin límites, y las herramientas avanzadas.</p>
         <ul class="lista-check">
           <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>Recuperar sin límite</li>
@@ -240,14 +261,14 @@
         <a class="boton primario" href="#descargar">Próximamente</a>
       </div>
     </div>
-    <p class="nota">Los precios se mostrarán en Microsoft Store en tu moneda, con los impuestos incluidos. Pago seguro gestionado por Microsoft. Consulta las <a href="pagos.html">condiciones de pago</a> y la <a href="reembolsos.html">política de reembolsos</a>.</p>
+    <p class="nota">Los precios se mostrarán en Microsoft Store en tu moneda, con los impuestos incluidos. Pago gestionado por Microsoft. Consulta las <a href="pagos.html">condiciones de pago</a> y la <a href="reembolsos.html">política de reembolsos</a>.</p>
   </div>
 </section>
 
-<section class="compacta">
+<section>
   <div class="contenedor">
-    <div class="titulo-seccion revela">
-      <span class="etiqueta">Con total transparencia</span>
+    <div class="cabeza revela">
+      <span class="sobre">Con total transparencia</span>
       <h2>Lo que ningún programa puede hacer.</h2>
       <p>Preferimos decírtelo antes que venderte algo imposible.</p>
     </div>
@@ -259,10 +280,10 @@
   </div>
 </section>
 
-<section id="preguntas">
+<section id="preguntas" class="alt">
   <div class="contenedor">
-    <div class="titulo-seccion revela">
-      <span class="etiqueta">Preguntas frecuentes</span>
+    <div class="cabeza revela">
+      <span class="sobre">Preguntas frecuentes</span>
       <h2>Resolvemos tus dudas.</h2>
     </div>
     <div class="faq revela">
@@ -278,14 +299,14 @@
   </div>
 </section>
 
-<section id="descargar" class="compacta">
+<section id="descargar">
   <div class="contenedor">
     <div class="final revela">
       <h2>Tus archivos merecen una segunda oportunidad.</h2>
       <p>Ondelio llegará muy pronto a Microsoft Store para Windows 10 y 11. Gratis para analizar y comprobar qué se puede recuperar.</p>
       <div class="botones">
         <span class="boton tienda" aria-disabled="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 5.5 10.5 4.5v7H3zM12.5 4.2 21 3v8.5h-8.5zM3 12.5h7.5v7L3 18.5zM12.5 12.5H21V21l-8.5-1.2z" fill="currentColor" stroke="none"/></svg><span><small>Próximamente en</small><strong>Microsoft Store</strong></span></span>
-        <a class="boton fantasma" href="mailto:gabriel@jurilia.com?subject=Ondelio">Escríbenos</a>
+        <a class="boton secundario" href="mailto:gabriel@jurilia.com?subject=Ondelio">Escríbenos</a>
       </div>
     </div>
   </div>
@@ -295,7 +316,7 @@
 <footer class="sitio">
   <div class="contenedor">
     <div class="pie-rejilla">
-      <div><a class="marca" href="index.html"><svg viewBox="0 0 32 32" aria-hidden="true"><defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#2dd4bf"/><stop offset="1" stop-color="#38bdf8"/></linearGradient></defs><circle cx="16" cy="16" r="12.5" fill="none" stroke="url(#g)" stroke-width="3"/><path d="M16 6.5a9.5 9.5 0 0 1 9.5 9.5" fill="none" stroke="#070b16" stroke-width="3.2"/><circle cx="16" cy="16" r="4.2" fill="url(#g)"/></svg>Ondelio</a><p>Recuperación de datos para Windows, honesta y sin riesgos. Hecho en España.</p></div>
+      <div><a class="marca" href="index.html"><svg viewBox="0 0 32 32" aria-hidden="true"><defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#2dd4bf"/><stop offset="1" stop-color="#38bdf8"/></linearGradient></defs><circle cx="16" cy="16" r="12.5" fill="none" stroke="url(#g)" stroke-width="3"/><circle cx="16" cy="16" r="4.2" fill="url(#g)"/></svg>Ondelio</a><p>Recuperación de datos para Windows, honesta y sin riesgos. Hecho en España.</p></div>
       <div><h4>Producto</h4><ul><li><a href="#funciones">Funciones</a></li><li><a href="#precios">Precios</a></li><li><a href="#sense">Ondelio Sense</a></li><li><a href="#preguntas">Preguntas frecuentes</a></li></ul></div>
       <div><h4>Legal</h4><ul><li><a href="aviso-legal.html">Aviso legal</a></li><li><a href="privacidad.html">Privacidad</a></li><li><a href="condiciones.html">Condiciones de uso</a></li><li><a href="pagos.html">Pagos</a></li><li><a href="reembolsos.html">Reembolsos</a></li><li><a href="cookies.html">Cookies</a></li></ul></div>
       <div><h4>Ayuda</h4><ul><li><a href="ayuda.html">Centro de ayuda</a></li><li><a href="mailto:gabriel@jurilia.com">Contacto</a></li><li><a href="../en/" hreflang="en" lang="en" data-idioma="en">English</a></li></ul></div>
@@ -307,7 +328,8 @@
 document.documentElement.classList.remove("sin-js");
 document.addEventListener("click",function(e){var a=e.target.closest("a[data-idioma]");if(a){try{localStorage.setItem("ondelio-idioma",a.dataset.idioma)}catch(_){}}});
 if("IntersectionObserver" in window){var o=new IntersectionObserver(function(es){es.forEach(function(x){if(x.isIntersecting){x.target.classList.add("visible");o.unobserve(x.target)}})},{rootMargin:"0px 0px -8% 0px"});
-document.querySelectorAll(".revela,.ventana").forEach(function(el){o.observe(el)})}else{document.querySelectorAll(".revela,.ventana").forEach(function(el){el.classList.add("visible")})}
+document.querySelectorAll(".revela,.entra").forEach(function(el){o.observe(el)})}else{document.querySelectorAll(".revela,.entra").forEach(function(el){el.classList.add("visible")})}
+document.querySelectorAll(".menu-movil .panel a").forEach(function(a){a.addEventListener("click",function(){a.closest("details").open=false})});
 </script>
 </body>
 </html>
